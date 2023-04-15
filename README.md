@@ -1,38 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Descripción general
+Un Terapeuta de IA es una aplicación que utiliza tecnología de inteligencia artificial para ofrecer servicios de apoyo psicológico y terapéutico a los usuarios que necesiten ayuda para manejar sus emociones y pensamientos. El objetivo es proporcionar a los usuarios un espacio seguro y confidencial para hablar sobre sus problemas y recibir orientación y asesoramiento en tiempo real.
 
-## Getting Started
+La aplicación puede ser diseñada para ayudar a los usuarios a manejar una amplia variedad de problemas emocionales, como la ansiedad, la depresión, el estrés, la ira, la soledad y el duelo. Puede ofrecer ejercicios de relajación, técnicas de respiración, meditación guiada, visualización creativa, etc. La aplicación también puede ayudar a los usuarios a identificar patrones de pensamiento negativos y proporcionar estrategias para cambiarlos.
 
-First, run the development server:
+La aplicación puede utilizar la API de ChatGPT para simular una conversación con un terapeuta humano, lo que puede hacer que la experiencia sea más interactiva y personalizada para el usuario. La API de ChatGPT puede proporcionar respuestas basadas en el contexto y la intención del usuario, lo que puede ayudar a la aplicación a responder de manera efectiva a las necesidades emocionales y psicológicas de los usuarios.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Es importante tener en cuenta que un Terapeuta de IA no puede reemplazar completamente a un terapeuta humano, ya que no puede proporcionar un nivel de empatía y comprensión que solo un ser humano puede ofrecer. Sin embargo, puede ser una herramienta útil para las personas que necesitan acceso a terapia en momentos en los que no es posible acceder a un terapeuta humano.
