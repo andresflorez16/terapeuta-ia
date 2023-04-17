@@ -1,14 +1,22 @@
 export default function Layout ({ children }) {
   return (
-    <main className='flex min-h-screen flex-col items-center justify-between p-24'>
-      <nav className='w-full text-white'>
+    <>
+      <nav className='w-full text-white fixed top-0 mt-8'>
         <ul className='font-bold text-xl flex gap-7 justify-center'>
-          <li>Terapeuta IA</li>
-          <li>Sobre nosotros</li>
+          <li>
+            <a href='#home'>Terapeuta IA</a>
+          </li>
+          <li>
+            <a href='#about'>¿Qué es?</a>
+          </li>
           <li>Contacto</li>
         </ul>
       </nav>
-      {children}
+      <main className='max-h-screen overflow-auto'>
+        <div className='max-w-xl mx-auto'>
+          {children}
+        </div>
+      </main>
       <footer>
         <p className='text-center text-gray-500 text-sm'>
           © {new Date().getFullYear()} - Made with love by{' '}
@@ -22,6 +30,6 @@ export default function Layout ({ children }) {
           </a>
         </p>
       </footer>
-    </main>
+    </>
   )
 }
